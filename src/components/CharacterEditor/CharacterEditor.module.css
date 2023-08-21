@@ -3,7 +3,18 @@
   padding-bottom: 64px;
 }
 
+.perspective {
+  background-color: hsl(185deg 20% 86%);
+
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 60%;
+}
+
 .maxWidthWrapper {
+  position: relative;
 }
 
 .header {
