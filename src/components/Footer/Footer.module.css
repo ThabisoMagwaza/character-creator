@@ -9,3 +9,9 @@
 .link {
   color: inherit;
 }
+
+@media screen and (max-width: 500px) {
+  .footer {
+    padding: 32px;
+  }
+}

@@ -1,6 +1,8 @@
 .characterEditor {
   padding-top: 128px;
   padding-bottom: 64px;
+
+  flex: 1;
 }
 
 .perspective {
@@ -47,4 +49,38 @@
 
 .controlColumn {
   width: 50%;
+}
+
+@media screen and (max-width: 500px) {
+  html {
+    font-size: 80%;
+  }
+
+  .title,
+  .description {
+    text-align: center;
+  }
+
+  .characterEditor {
+    padding-top: 50px;
+  }
+
+  .controlColumn {
+    display: flex;
+    gap: 10px;
+
+    overflow-x: auto;
+
+    width: auto;
+  }
+
+  .header {
+    width: auto;
+    padding-bottom: 250px;
+  }
+
+  .characterWrapper {
+    height: 45%;
+    left: 10%;
+  }
 }
